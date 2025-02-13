@@ -1,17 +1,21 @@
-*{border:1px lightblue solid;
-    margin:1px;}
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+ 
+
+*{border:1px black solid;
+  margin:1px;}
+  
     
     .main{
      width:80%;
      margin: 0 auto;
-     background: silver;
+     background: gold;
     }
     nav{
     display:flex;
     justify-content:space-around;
     position:sticky;
     top: 0;
-    background: silver;
+    background: gold;
     }
     .splash{width:100%}
     
@@ -28,4 +32,15 @@
     
     .productImg{
      width:100%
+    }
+
+    .Satisfy{
+      font-family: "Satisfy", serif;
+  font-weight: 400;
+  font-style: normal;
+    }
+
+    a{
+    text-decoration: none;
+    border: 0px;
     }
